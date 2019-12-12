@@ -17,6 +17,8 @@ $mid-blue: hsl(229, 6%, 66%);
     vertical-align: baseline;
 }
 body {
+  width: 100%;
+  height: 100%;
   font-family: 'Poppins', sans-serif;
   font-size: 15px;
   background-color: #FAFAFA;
@@ -102,24 +104,36 @@ footer {
   margin-top: 3em;
 }
 
-// @media screen and (max-width: 600px) {
-//   h1 {
-//     font-size: 1.6rem;
-//   }
-//   header p {
-//     font-size: 12px;
-//   }
-//
-//   .container {
-//     display: flex;
-//     flex-direction: column;
-//     width: 100%;
-//     height: auto;
-//     justify-content: space-between;
-//
-//     .supervisor {
-//       width: 100%;
-//       height: 53%;
-//     }
-//   }
-// }
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 1.6rem;
+  }
+  header {
+    width: 90%;
+    p {
+      font-size: 13px;
+    }
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+
+    .card{
+      width: 90%;
+      height: 250px;
+      margin: 0 auto 1em auto;
+    }
+    .midCol {
+      width: 100%;
+
+      .card {
+        width: 90%;
+        height: 250px;
+        margin: 0 auto 1em auto;
+      }
+    }
+  }
+}
