@@ -1,6 +1,8 @@
 # Frontend Mentor - Four card feature section
 
-This challenge is presented by Frontend Mentor. Mockups and designs provided by Frontend Mentor. All code is written by Isaac Vongphakdy.
+This challenge is presented by Frontend Mentor. Mockups and designs provided by Frontend Mentor.
+
+**All code is written by Isaac Vongphakdy.**
 
 ![Design preview for the Four card feature section coding challenge](./design/desktop-preview.jpg)
 
